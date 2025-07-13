@@ -5,7 +5,7 @@ from rag_using_langchain import fetch_transcript, create_vector_store, get_main_
 
 # Load environment variables
 
-OPENAI_API_KEY = st.secrets("OPENAI_API_KEY")
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 
 # Streamlit page setup
 st.set_page_config(page_title="YouTube RAG App", layout="wide")
