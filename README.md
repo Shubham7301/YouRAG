@@ -18,7 +18,8 @@
 
 > 📌 Paste a YouTube video URL or ID, type your question, and click **"Run RAG Pipeline"** — the app will fetch the transcript, build a vector store, retrieve relevant chunks, and answer your question.
 
-![screenshot](#) <!-- Add screenshot or Streamlit Cloud link here -->
+<img width="1469" height="868" alt="Screenshot 2025-07-13 at 4 26 03 PM" src="https://github.com/user-attachments/assets/c967257a-5125-4246-b0c7-b2cadd34bfc9" />
+<!-- Add screenshot or Streamlit Cloud link here -->
 
 ---
 
@@ -32,7 +33,8 @@
 - **YouTube Transcript API**
 - **dotenv**
 
----
+
+
 
 ## 📦 Installation
 
