@@ -9,16 +9,16 @@ OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 
 # Streamlit page setup
 st.set_page_config(page_title="YouTube RAG App", layout="wide")
-st.title("🎬 YouTube RAG using LangChain")
+st.title("🎬 YouRAG: YouTube RAG using LangChain")
 
 # Input fields
-video_url = st.text_input("Enter YouTube video URL (or just video ID)")
+video_url = st.text_input("Enter YouTube video ID")
 question = st.text_input("Ask a question based on the video transcript")
 
 # Run button
-if st.button("Run RAG Pipeline"):
+if st.button("Submit"):
     try:
-        with st.spinner("🔄 Running RAG pipeline... please wait."):
+        with st.spinner("🔄 Running... please wait."):
             # Extract video ID
             video_id = video_url.split("v=")[-1] if "youtube.com" in video_url else video_url
 
