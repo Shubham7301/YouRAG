@@ -1,11 +1,11 @@
 import streamlit as st
 import os
-from dotenv import load_dotenv
+
 from rag_using_langchain import fetch_transcript, create_vector_store, get_main_chain
 
 # Load environment variables
-load_dotenv()
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+
+OPENAI_API_KEY = st.secrets("OPENAI_API_KEY")
 
 # Streamlit page setup
 st.set_page_config(page_title="YouTube RAG App", layout="wide")
