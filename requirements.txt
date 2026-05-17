@@ -1,6 +1,10 @@
 streamlit
-youtube-transcript-api
-langchain-community
+langchain
 langchain-openai
+langchain-community
+langchain-core
+openai
 faiss-cpu
+youtube-transcript-api
+python-dotenv
 tiktoken
