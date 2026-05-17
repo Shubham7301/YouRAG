@@ -7,5 +7,5 @@ langchain-text-splitters
 openai
 faiss-cpu
 youtube-transcript-api
-python-dotenv
 tiktoken
+python-dotenv
